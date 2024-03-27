@@ -1,7 +1,7 @@
 Import-Module '.\src\CISDSCResourceGeneration\CISDSCResourceGeneration.psd1' -Force
 $Splat = @{
     BenchmarkPath            = 'C:\CIS\Benchmarks\CIS_Microsoft_Windows_Server_2019_Benchmark_v3.0.0.xlsx'
-    BenchmarkVersion         = '1.3.0'
+    BenchmarkVersion         = '3.0.0'
     GPOPath                  = 'C:\CIS\WS2019\Server2019v3.0.0'
     OutputPath               = '.\src\CISDSC\dscresources'
     StaticCorrectionsPath    = '.\csvs\static_corrections\Server2019_1809_corrections.csv'
